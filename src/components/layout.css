@@ -1,9 +1,12 @@
 html {
+  position: relative;
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  min-height: 100%;
 }
 body {
+  font-family: Montserrat !important;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -104,6 +107,12 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+}
+button:focus{
+  outline: none;
+}
+li:focus{
+  outline: none !important;
 }
 button,
 input,
